@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.registration_container{
+    background-image: url("../assets/экран\ знакомство_Монтажная\ область\ 1\ копия\ 9\ 1.jpg") no-repeat; 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+.cat{
+    background-image: url("../assets/Mob\ Кот\ Статус.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    min-height: 60vh;
+    min-width: 22vw;
+    left:0;
+    bottom:0;
+}
+.settings{
+    position:absolute;
+    right:0px;
+    top:0px;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+.bubble{
+    position: absolute;
+    bottom: 0;
+    left:0;
+    margin-left: 60px;
+    width:92vw; 
+    height:221px;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 21px;
+    border: 3px solid black;
+}
+.bubble1 {
+    content: '';
+    position: absolute;
+    height:79px;
+    width:215px;
+    top: -66px;
+    left: 20%;
+    background-image: url("../assets/photo_2024-09-29_17-07-35.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: -13px;
+    margin-top: -13px;
+}
+.status{
+    margin: 0px;
+}
+.statusDiv{
+    background-color: rgba(98, 159, 66, 1);
+    border-radius: 10px;
+    width:132px;
+    height:46px;
+    position: absolute;
+    top:0px;
+    left:0px;
+    margin-left: 87px;
+    margin-top: 72vh;
+    border: 3px solid black;
+    justify-content: center;
+    display: flex;
+}
+.status{
+    font-family: Open-sans;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color:white;
+    margin: 7px;
+}
+.introPage{
+    margin-left: 25px;
+    font-family: Open-sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 70vw;
+    margin-top: 39px;
+}
+.nextPage{
+    background-image: url("../assets/стрелка.png");
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 42px;
+    height:42px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.introPageElement{
+    font-family: Open-sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 15px;
+}
+.textDiv{
+    margin-top: 39px;
+    margin-left: 25px;
+    font-family: Open-sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 70vw;
+    display: flex;
+
+}
+.miniTextDiv{
+    text-wrap: nowrap;
+    display: flex;
+    font-family: Open-sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 70vw;
+    margin-bottom: 10px;
+}
